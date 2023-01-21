@@ -1,14 +1,12 @@
 
-# Create Near Next
+# Near NextJS Boilerplate
 
-This is a Next JS app with Near Api bootstrapped using create-near-next
+This is a Next JS app with Near Api bootstrapped!
 
 # Getting Started
 In order to run the development server run:  
 
     yarn dev
-    # or
-    npm run dev
     
 This will start the front-end at port ***localhost:3000***
 
@@ -16,14 +14,11 @@ This will start the front-end at port ***localhost:3000***
 The contract is located in under the ***contract/assembly*** folders, after editing the contract you can run
 
     yarn build-contract
-    # or
-    npm run build-contract
     
 in order to build the contract and get the ***.wasm*** file , if you want to build and deploy the contract at the same time, you can run 
 
     yarn deploy-contract
-    # or
-    npm run deploy-contract
+    
 This will create a test account and deploy the contract into it.
 
 after the contract is deployed, it is necessary to run the following command in the terminal in order to be able to run the contract
@@ -38,7 +33,7 @@ where the **ACCOUNT_ID** will be returned after the contract deployment
 **Running contract in the terminal**
 If you want to run the contract in the terminal you can either:
 
- 1. Run the `yarn run-contract # or npm run run-contract` which will run a bash file that will run the example methods available on the contract.
+ 1. Run the `yarn run-contract` which will run a bash file that will run the example methods available on the contract.
  Before running this command, **{NEAR_ACCOUNT}** placeholders must be replaced with correct Near accounts.
  
  3. You can call the contract manually in the terminal , examples are show below in the functions section.
@@ -71,8 +66,6 @@ The front-end for this project was build using NextJS as a framework.
 In order to run the front-end locally you have to run the command:
 
     yarn dev
-    # or
-    npm run dev
 
  
 
