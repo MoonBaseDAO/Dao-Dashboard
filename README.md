@@ -1,7 +1,9 @@
 
-# Near NextJS Boilerplate
+# DAO Dashboard
 
-This is a Next JS app with Near Api bootstrapped!
+[](https://github.com/MoonBaseDAO/Dao-Dashboard/blob/main/image.png?raw=true)
+
+This is a NextJS app with Near API bootstrapped!
 
 # Getting Started
 In order to run the development server run:  
