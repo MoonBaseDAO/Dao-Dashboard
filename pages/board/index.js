@@ -6,7 +6,7 @@ export default function Board() {
   return (
     <div className={styles.layout}>
       <Navbar />
-      <Sidebar notifications={10}/>
+      <Sidebar notifications={10} />
     </div>
   );
 }

@@ -1,6 +1,7 @@
+import { Card } from '../card';
 import styles from './style.module.css';
 
-export const Sidebar = ({children, notifications}) => {
+export const Sidebar = ({ children, notifications }) => {
   return (
     <div className={styles.layout}>
       <div className={styles.toolbar}>
@@ -16,7 +17,62 @@ export const Sidebar = ({children, notifications}) => {
       </div>
       <div className={styles.header}>Schedule</div>
       <div className={styles.content}>
-        {children}
+        <Card time="01:00 - 02:00 PM" title="Team Meeting">
+          <img
+            src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+            alt="member" />
+          <img
+            src="https://images.unsplash.com/photo-1475552113915-6fcb52652ba2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80"
+            alt="member-2" />
+          <img
+            src="https://images.unsplash.com/photo-1493752603190-08d8b5d1781d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80"
+            alt="member-3" />
+          <img
+            src="https://images.unsplash.com/photo-1484688493527-670f98f9b195?ixlib=rb-1.2.1&auto=format&fit=crop&w=2230&q=80"
+            alt="member-4" />
+        </Card>
+        <Card time="01:00 - 02:00 PM" title="Team Meeting" type="red">
+          <img
+            src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+            alt="member" />
+          <img
+            src="https://images.unsplash.com/photo-1475552113915-6fcb52652ba2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80"
+            alt="member-2" />
+          <img
+            src="https://images.unsplash.com/photo-1493752603190-08d8b5d1781d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80"
+            alt="member-3" />
+          <img
+            src="https://images.unsplash.com/photo-1484688493527-670f98f9b195?ixlib=rb-1.2.1&auto=format&fit=crop&w=2230&q=80"
+            alt="member-4" />
+        </Card>
+        <Card time="01:00 - 02:00 PM" title="Team Meeting" type="blue">
+          <img
+            src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+            alt="member" />
+          <img
+            src="https://images.unsplash.com/photo-1475552113915-6fcb52652ba2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80"
+            alt="member-2" />
+          <img
+            src="https://images.unsplash.com/photo-1493752603190-08d8b5d1781d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80"
+            alt="member-3" />
+          <img
+            src="https://images.unsplash.com/photo-1484688493527-670f98f9b195?ixlib=rb-1.2.1&auto=format&fit=crop&w=2230&q=80"
+            alt="member-4" />
+        </Card>
+        <Card time="01:00 - 02:00 PM" title="Team Meeting" type="yellow">
+          <img
+            src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+            alt="member" />
+          <img
+            src="https://images.unsplash.com/photo-1475552113915-6fcb52652ba2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80"
+            alt="member-2" />
+          <img
+            src="https://images.unsplash.com/photo-1493752603190-08d8b5d1781d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80"
+            alt="member-3" />
+          <img
+            src="https://images.unsplash.com/photo-1484688493527-670f98f9b195?ixlib=rb-1.2.1&auto=format&fit=crop&w=2230&q=80"
+            alt="member-4" />
+        </Card>
       </div>
     </div>
   );
